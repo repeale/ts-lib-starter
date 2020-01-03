@@ -16,8 +16,7 @@
     "jest": "jest --ci",
     "test": "npm run jest",
     "prebuild": "rimraf dist/*",
-    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.es6.json",
-    "prepublish": "npm run build"
+    "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.es6.json"
   },
   "dependencies": {},
   "devDependencies": {
