@@ -1,1 +1,2 @@
-export const sum = (a: number, b: number) => a + b
+export {sum} from './sum'
+export {subtract} from './subtract'

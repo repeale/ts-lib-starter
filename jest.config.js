@@ -4,7 +4,7 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.ts'],
   transform: {
-    '^.+\\.tsx?$': 'ts-jest'
+    '^.+\\.tsx?$': 'ts-jest',
   },
   rootDir: 'src',
   testRegex: 'test',
@@ -14,8 +14,8 @@ module.exports = {
       branches: 100,
       functions: 100,
       lines: 100,
-      statements: 100
-    }
+      statements: 100,
+    },
   },
-  modulePathIgnorePatterns: ['property-test']
+  modulePathIgnorePatterns: ['property-test'],
 }

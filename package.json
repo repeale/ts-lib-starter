@@ -9,25 +9,33 @@
     "lib",
     "starter"
   ],
-  "main": "dist/cjs/index.js",
-  "module": "dist/es6/index.js",
-  "typings": "dist/cjs/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/repeale/ts-lib-starter"
+  },
+  "main": "cjs/index.js",
+  "module": "es6/index.js",
+  "typings": "cjs/index.d.ts",
+  "files": [
+    "cjs",
+    "es6"
+  ],
   "scripts": {
     "jest": "jest --ci",
     "test": "npm run jest",
-    "prebuild": "rimraf dist/*",
+    "prebuild": "rimraf cjs/* es6/*",
     "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.es6.json"
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/jest": "24.0.25",
-    "@types/prettier": "1.19.0",
-    "jest": "24.9.0",
-    "prettier": "1.19.1",
-    "rimraf": "3.0.0",
-    "ts-jest": "24.2.0",
-    "tslint": "5.20.1",
+    "@types/jest": "25.2.3",
+    "@types/prettier": "2.0.1",
+    "jest": "26.0.1",
+    "prettier": "2.0.5",
+    "rimraf": "3.0.2",
+    "ts-jest": "26.1.0",
+    "tslint": "6.1.2",
     "tslint-config-prettier": "1.18.0",
-    "typescript": "3.7.4"
+    "typescript": "3.9.5"
   }
 }
