@@ -14,10 +14,14 @@
 git clone https://github.com/repeale/ts-lib-starter.git your-lib-name
 ```
 
-- Remove the `.git` folder and change details within:
+- Remove the `.git` folder 
+
+- Change details within:
 
 ```
 package.json
+LICENSE
+README.md
 ```
 
 - Install dependencies
