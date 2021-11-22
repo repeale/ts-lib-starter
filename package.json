@@ -28,6 +28,7 @@
     "lint": "eslint 'src/**/*.ts' --quiet",
     "lint:fix": "eslint 'src/**/*.ts' --quiet --fix",
     "prebuild": "rimraf cjs/* es6/*",
+    "prepublishOnly": "npm run test:ci && npm run build",
     "test:ci": "CI=true jest --ci --coverage=true",
     "test": "jest --watch"
   },
