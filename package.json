@@ -18,7 +18,10 @@
   "typings": "cjs/index.d.ts",
   "files": [
     "cjs",
-    "es6"
+    "es6",
+    "CHANGELOG.md",
+    "LICENCE",
+    "README.md"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.cjs.json && tsc -p tsconfig.es6.json",
