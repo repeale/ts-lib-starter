@@ -14,7 +14,7 @@
     "url": "https://github.com/repeale/ts-lib-starter"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "main": "cjs/index.js",
   "module": "es6/index.js",
@@ -36,27 +36,27 @@
     "test": "jest --watch"
   },
   "dependencies": {
-    "tslib": "2.3.1"
+    "tslib": "2.4.0"
   },
   "devDependencies": {
-    "@repeale/eslint-config": "1.5.0",
-    "@repeale/prettier-config": "1.0.7",
-    "@types/jest": "27.4.0",
-    "@types/prettier": "2.4.4",
-    "@typescript-eslint/eslint-plugin": "5.12.1",
-    "@typescript-eslint/parser": "5.12.1",
-    "eslint": "8.9.0",
-    "eslint-config-prettier": "8.4.0",
-    "eslint-plugin-import": "2.25.4",
+    "@repeale/eslint-config": "1.6.0",
+    "@repeale/prettier-config": "1.0.8",
+    "@types/jest": "27.5.0",
+    "@types/prettier": "2.6.0",
+    "@typescript-eslint/eslint-plugin": "5.22.0",
+    "@typescript-eslint/parser": "5.22.0",
+    "eslint": "8.14.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.0.0",
-    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react": "7.29.4",
     "husky": "7.0.4",
-    "jest": "27.5.1",
-    "lint-staged": "12.3.4",
-    "prettier": "2.5.1",
+    "jest": "28.0.3",
+    "lint-staged": "12.4.1",
+    "prettier": "2.6.2",
     "rimraf": "3.0.2",
-    "ts-jest": "27.1.3",
-    "typescript": "4.5.5"
+    "ts-jest": "28.0.1",
+    "typescript": "4.6.4"
   },
   "husky": {
     "hooks": {
